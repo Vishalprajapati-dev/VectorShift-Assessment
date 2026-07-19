@@ -1,0 +1,59 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  height:100%;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:#f5f7fb;
+  color:#111827;
+  overflow:hidden;
+}
+
+button,
+input,
+textarea,
+select{
+  font-family:inherit;
+}
+
+.react-flow{
+  background:#f8fafc;
+}
+
+.react-flow__background{
+  opacity:.45;
+}
+
+.react-flow__controls{
+  border-radius:12px;
+  overflow:hidden;
+  border:none;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+.react-flow__minimap{
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#cbd5e1;
+  border-radius:20px;
+}
